@@ -221,30 +221,7 @@ section{
     mask-position: 7.5% 50%,92.5% 50%;
 filter: grayscale(0);
   }
-  /* .elonwrapper{
-    background-color: #222;
-    border: 2px solid black;
-    border-radius: 100%;
-    overflow: hidden;
-    margin-top:40px;
-  } */
-/* .elonmusk h1{
-  font-size:1.6rem;
-}
-
-.elon:hover{
   
-  -webkit-transform: scale(1.15);
-	transform: scale(1.15);
-} */
-
-/* .elonmusk{
-  border: 2px solid black;
-  border-radius: 100%;
-  overflow: hidden;
-  margin:20px;
-  
-} */
 .item-wrapper{
    width: 100%;
    display: flex;
@@ -710,7 +687,7 @@ hr{
         width:400px;
       }
       .sticky{
-        font-size:20px;
+        font-size:27px;
         padding:10px;
         margin-bottom: 0;
       }
@@ -727,7 +704,9 @@ hr{
       }
       .total-cost h3:hover{
         transform:translate(0,0);}
-
+.item-cost{
+  font-weight: 700;
+}
       
    
 }
