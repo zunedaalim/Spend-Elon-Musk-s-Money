@@ -16,7 +16,8 @@
   @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
 
   @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-  
+
+
   @keyframes scrollDown {
     0% {
       transform: translateY(0);
@@ -82,6 +83,7 @@ justify-content: center;
 
 }
 .elonmusk{
+  -webkit-tap-highlight-color: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -189,7 +191,7 @@ section{
 
 }
 .elon{
-
+  -webkit-tap-highlight-color: transparent;
   --m:
     radial-gradient(circle farthest-side at right,#000 99%,#0000) 
       0 100%/46% 92% no-repeat,
