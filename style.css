@@ -406,7 +406,7 @@ height:auto;
 .reciept {
   
       max-width:960px;
-    padding:15px;
+    padding:10px;
     margin:0 auto;
     margin-top:20px;
     height: auto;
@@ -708,6 +708,13 @@ hr{
         transform:translate(0,0);}
 .item-cost{
   font-weight: 700;
+  font-size:14px;
+}
+.item-name{
+  font-size: 15px;
+}
+.item-input{
+  font-size: 14px;
 }
       
    
