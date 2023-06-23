@@ -719,14 +719,17 @@ hr{
       ::-webkit-scrollbar {
         display: none;
       }
+      .total-cost h3{
+        font-size: 17px;
+      }
       .total-cost h3:hover{
         transform:translate(0,0);}
 .item-cost{
   font-weight: 700;
-  font-size:14px;
+  font-size:16px;
 }
 .item-name{
-  font-size: 15px;
+  font-size: 16px;
 }
 .item-input{
   font-size: 14px;
@@ -734,7 +737,15 @@ hr{
 .total-cost h3{
   font-size: 17px;
 }
-      
+      .name{
+        font-size: 14px;
+      }
+      .number{
+        font-size: 14px;
+      }
+      .cost{
+        font-size: 14px;
+      }
    
 }
 /* @media(max-width:500px){
