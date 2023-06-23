@@ -138,7 +138,7 @@ color:white; */
   
 }
 .photo p{
-
+  -webkit-tap-highlight-color: transparent;
   line-height: 30px;
 font-size: 17px;
 letter-spacing: 1px;
