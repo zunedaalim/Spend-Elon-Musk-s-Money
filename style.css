@@ -605,6 +605,7 @@ hr{
     opacity:70%;
 }
 .bottom {
+  color:#000000;
   z-index: 10000;
   text-decoration: none;
   position: fixed;
@@ -623,6 +624,7 @@ hr{
   color:rgb(2, 2, 2)
 }
 .top {
+  color:#000000;
   z-index: 10000;
   text-decoration: none;
   position: fixed;
