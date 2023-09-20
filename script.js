@@ -405,6 +405,7 @@ function createBox(item) {
 <div class= "item-cost">${price}</div>
 <div class="item-controls">
 <button  class="button-64 sell"  role="button"><span class="text">Sell</span></button>
+
 <input type="number" class="item-input" value ="0">
 <button  class="button-64 buy"   role="button"><span class="text">Buy</span></button>
 </div>
