@@ -400,7 +400,7 @@ function createBox(item) {
   box.innerHTML = `
    <div class ="item-wrapper">
 <div class= "overflow">
-<img src= "${image}" alt =${text}/> </div> 
+<img src= "${image}" alt =${text} loading="lazy"/> </div> 
 <div class= "item-name">${text}</div>
 <div class= "item-cost">${price}</div>
 <div class="item-controls">
