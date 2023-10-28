@@ -8,7 +8,7 @@
 }
 @font-face {
   font-family: "Audrey";
-  src: url("./fonts/Audrey-Normal.woff2") format("woff2");
+  src: url("./fonts/Audrey-Normal.otf");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
