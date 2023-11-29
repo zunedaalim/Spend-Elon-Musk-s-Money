@@ -7,386 +7,379 @@ const data = [
     image: "./Pictures/big-mac-meal-230.webp",
 
     text: "Big Mac Meal",
-    price: "₹230",
+    price: "$6",
   },
   {
     image: "./Pictures/flip-flops.webp",
     text: "Flip-Flops",
-    price: "₹ 100",
+    price: "$15",
   },
   {
     image: "./Pictures/Jordan-Expert-Deep-Clean-Toothbrush-315.webp",
     text: "ToothBrush",
-    price: "₹ 315",
+    price: "$3",
   },
   {
     image: "./Pictures/spotify.png",
     text: "Spotify",
-    price: "₹ 119",
+    price: "$10",
   },
   {
     image: "./Pictures/netflix-logo-text-emblem-31.png",
     text: "Netflix (1 Month)",
-    price: "₹ 499",
+    price: "$12",
   },
   {
     image: "./Pictures/milk.webp",
     text: "Milk (1ltr)",
-    price: "₹ 72",
+    price: "$2",
   },
   {
     image: "./Pictures/hercules-rf-15610.webp",
     text: "Hercules Bicycle",
-    price: "₹ 15,610",
+    price: "$150",
   },
   {
     image: "./Pictures/airpods-3rd-gen.webp",
     text: "Airpods 3rd Gen",
-    price: "₹ 20,900",
+    price: "$179",
   },
   {
     image: "./Pictures/hero-splendor-plus-left-side-view3-64470.webp",
     text: "Hero Splendor Plus",
-    price: "₹ 64,470",
+    price: "$800",
   },
   {
     image: "./Pictures/pvr-380.avif",
     text: "PVR Ticket",
-    price: "₹ 380",
+    price: "$10",
   },
   {
     image: "./Pictures/titan-999.webp",
     text: "Titan Watch",
-    price: "₹ 999",
+    price: "$50",
   },
   {
     image: "./Pictures/smarttv.webp",
     text: "Smart TV (55 inch)",
-    price: "₹29,999",
+    price: "$500",
   },
   {
     image: "./Pictures/air-jordans.webp",
     text: "Air Jordan",
-    price: "₹ 16,995",
+    price: "$120",
   },
   {
     image: "./Pictures/Yellow-Tail-2295.webp",
     text: "Yellow Tail Wine",
-    price: "₹2,295",
+    price: "$12",
   },
   {
     image: "./Pictures/ps5.webp",
     text: "PS-5",
-    price: "₹40,000",
+    price: "$500",
   },
   {
     image: "./Pictures/concert.avif",
     text: "Justin Bieber Concert Ticket",
-    price: "₹ 69,999",
+    price: "$200",
   },
   {
     image: "./Pictures/Air-India-77,199.webp",
     text: "Flight To London (Economy)",
-    price: "₹ 77,199",
+    price: "$600",
   },
   {
     image: "./Pictures/right-front-three-quarter1.webp",
     text: "Alto 800",
-    price: "₹5,13,000",
+    price: "$6,000",
   },
   {
     image: "./Pictures/rolex-air-king-608000.webp",
     text: "Rolex Air King",
-    price: "₹6,50,000",
+    price: "$10,000",
   },
   {
     image: "./Pictures/iphone-15-pro-max.webp",
     text: "Iphone 15 pro max",
-    price: "₹1,43,990",
+    price: "$1,199",
   },
   {
     image: "./Pictures/ktm-209555.webp",
     text: "KTM",
-    price: "₹2,09,555",
+    price: "$5,000",
   },
   {
     image: "./Pictures/macbook-m3.webp",
     text: "Macbook pro (M3)",
-    price: "₹ 1,59,900",
+    price: "$ 1,299",
   },
 
   {
     image: "./Pictures/apple-vr.webp",
     text: "Apple Vision Pro Headset",
-    price: "₹2,88,000",
+    price: "$3,499",
   },
   {
     image: "./Pictures/Thar-15-lakh.webp",
     text: "Thar",
-    price: "₹15,00,000",
+    price: "$20,000",
   },
   {
     image: "./Pictures/maharaja-express-7,94,640.webp",
     text: "Maharaja Express Travel",
-    price: "₹7,94,640",
+    price: "$4,890",
   },
 
   {
     image: "./Pictures/2019-mac-pro-side-and-front.webp",
     text: "Apple Mac Pro",
-    price: "₹7,29,900",
+    price: "$5,999",
   },
   {
     image: "./Pictures/Audi-A8.webp",
     text: "Audi A8",
-    price: "₹1,30,00,000",
+    price: "$95,000",
   },
   {
     image: "./Pictures/teslabot.webp",
     text: "Teslabot",
-    price: "₹16,00,000",
+    price: "$20,000",
   },
   {
     image: "./Pictures/pc.webp",
     text: "Orion X's Gaming PC",
-    price: "₹25,00,000",
+    price: "$2,999",
   },
 
   {
     image: "./Pictures/kawasaki-ninja-h2r-1-69-lakh.webp",
     text: "Ninja H2R",
-    price: "₹79,99,999",
+    price: "$55,000",
   },
   {
     image: "./Pictures/gold-bar.webp",
     text: "Gold Bar (1KG)",
-    price: "₹63,00,000",
+    price: "$50,000",
   },
 
   {
     image: "./Pictures/diamond-ring-251036.webp",
     text: "Diamond Ring",
-    price: "₹25,00,000",
+    price: "$6,500",
   },
   {
     image: "./Pictures/avantador-5cr.webp",
     text: "Lamborghini Avantador",
-    price: "₹5,00,00,000",
+    price: "$825,000",
   },
   {
-    image: "./Pictures/mumbai-inidans-839cr.png",
-    text: "Ipl Team (Average)",
-    price: "₹839,00,00,000",
+    image: "./Pictures/new-york-mets-flag.webp",
+    text: "The New York Mets",
+    price: "$334,230,000",
   },
 
   {
     image: "./Pictures/Buggati-Centodieci-9million.webp",
     text: "Buggati Centodieci",
-    price: "₹573,86,00,000",
+    price: "$9,000,000",
   },
   {
     image: "./Pictures/Nike-Air-Force-1-Low-Louis-Vuitton.webp",
     text: "Nike Air Force 1 Louis Vuitton",
-    price: "₹ 1,65,89,000",
+    price: "$2750",
   },
   {
     image: "./Pictures/rambagh-palace-average-30000.webp",
     text: "Rambagh Palace (1- Night)",
-    price: "₹ 30,000",
+    price: "$5,000",
   },
 
   {
     image: "./Pictures/koenisegg.webp",
     text: "Koenisegg One:1",
-    price: "₹ 23,35,50,000",
+    price: "$2,000,000",
   },
   {
     image: "./Pictures/space-6cr.webp",
     text: "Space Trip",
-    price: "₹ 6,00,00,000",
+    price: "$500,000",
   },
   {
     image: "./Pictures/H145 Airbus helicopter-85cr.webp",
     text: "H145 Airbus Helicopter",
-    price: "₹ 85,00,00,000",
+    price: "$7,925,000",
   },
   {
     image: "./Pictures/Mansion-52million.webp",
     text: "Mansion",
-    price: "₹ 426,09,71,000",
+    price: "$5,000,000",
   },
   {
     image: "./Pictures/3-BHK-Luxury-flat-in-south-bombay-3.89cr.webp",
-    text: "Luxury Flat in Mumbai (3-BHK)",
-    price: "₹ 3,89,00,000",
+    text: "Luxury Flat in New-York (3-BHK)",
+    price: "$8,000,000",
   },
   {
     image: "./Pictures/Jet-Gulfstream-G450-8,000,000.webp",
     text: " Jet Gulfstream",
-    price: "₹ 65,55,52,800",
+    price: "$37,000,000",
   },
   {
     image: "./Pictures/samsung-micro-led-display-the-wall-12crore.webp",
     text: "Samsung Micro LED Display",
-    price: "₹12,00,00,000",
+    price: "$1,38,000",
   },
   {
     image: "./Pictures/cyberdog-1,18,213.webp",
     text: "Cyberdog",
-    price: "₹ 20,00,000",
+    price: "$2,0000",
   },
   {
     image: "./Pictures/formula1-700mil.webp",
     text: "Formula-1 Team (Average)",
-    price: "₹ 32,76,48,60,000",
+    price: "$1,880,000,000",
   },
   {
     image: "./Pictures/emirates-first-class-5,02,876.webp",
     text: "Emirates First Class",
-    price: "₹ 5,02,000",
+    price: "$10,000",
   },
   {
     image: "./Pictures/bombay-saphore-200000.webp",
     text: "Bombay Sapphire Revelation Drink",
-    price: "₹ 16,38,400",
+    price: "$200,000",
   },
   {
     image: "./Pictures/palm-jumera-1cr-15lakh.webp",
     text: "The Casa Del Sole (villa)",
-    price: "₹ ₹677,37,00,000",
+    price: "$82,000,000",
   },
 
   {
     image: "./Pictures/Jacob_Co_-_The_Billionaire_Watch_-18_million1.webp",
     text: "The Billionaire Watch",
-    price: "₹ 1,47,43,34,100",
+    price: "$20,000,000",
   },
   {
     image: "./Pictures/mona-lisa.webp",
     text: "Monalisa",
-    price: "₹5,550,00,00,000",
+    price: "$860,000,000",
   },
   {
     image: "./Pictures/painting.webp",
     text: "Les Femmes d’Alger by Picasso",
-    price: "₹ 14,69,31,74,000",
+    price: "$179,000,000",
   },
   {
     image: "./Pictures/produce-90mil.webp",
     text: "Produce Hollywood Movie",
-    price: "₹ 7,37,12,92,500",
+    price: "$100,000,000",
   },
   {
     image: "./Pictures/perfect-pink-diamond-35million.webp",
     text: "Perfect Cut Pink Diamond",
-    price: "₹ 286,66,13,750",
+    price: "$3,300,000",
   },
   {
     image: "./Pictures/graff hallucination watch-55-million.webp",
     text: "Graff Hallucination Watch",
-    price: "₹ 450,45,20,000",
+    price: "$55,000,000",
   },
   {
     image: "./Pictures/toilet-30000.webp",
     text: " Golden Toilet",
-    price: "₹ 24,57,000",
+    price: "$1,000,000",
   },
   {
     image: "./Pictures/jeff-house-165million.webp",
     text: "Jeff Bezos Mansion",
-    price: "₹ 13,51,40,00,000",
+    price: "$165,000,000",
   },
 
   {
     image: "./Pictures/island.webp",
     text: "Private Island, Central America",
-    price: "₹ 40,55,00,000",
+    price: "$$1,500,000",
   },
 
   {
     image: "./Pictures/startup.webp",
     text: "Start Your Own Startup",
-    price: "₹1,00,00,000",
+    price: "$1,000,000",
   },
   {
     image:
       "./Pictures/indian_army_jetpack_getty_2-sixteen_nine-400,000dollar.webp",
     text: "Jetpack",
-    price: "₹ 3,30,00,000",
+    price: "$340,000",
   },
 
   {
     image: "./Pictures/formula-1-car.webp",
     text: "Formula-1",
-    price: "₹  8,24,94,95,000",
+    price: "$15,000,000",
   },
   {
     image: "./Pictures/history-supreme-yacht-4.5billion.webp",
-    text: "History Supreme Yath",
-    price: "₹3,93,26,44,80,000",
+    text: "History Supreme Yacht",
+    price: "$4,800,000,000",
   },
   {
     image: "./Pictures/apache-helicopter.webp",
-    text: "Apache Hhelicopter",
-    price: "₹ 1,067,900,000",
+    text: "Apache Helicopter",
+    price: "$ 13,900,000",
   },
   {
     image: "./Pictures/boeing-747.webp",
     text: "Boeing-747",
-    price: "₹ 84,00,00,00,000",
+    price: "$420,000,000",
   },
   {
     image: "./Pictures/Rolls-Royce-Boat-Tail-768x411-28milliondolla.webp",
     text: "Rolls Royce Boat Tail",
-    price: "₹ 2,29,45,58,000",
+    price: "$28,000,000",
   },
 
   {
     image: "./Pictures/antilia-15000.webp",
     text: "Antilia",
-    price: "₹ 15,00,00,00,000",
+    price: "$ 2,000,000,000",
   },
   {
     image: "./Pictures/cruise-ship.webp",
-    text: " Symphony of the Seas (Cruise Ship)",
-    price: "₹ 76,35,30,93,000 ",
+    text: " Royal Caribbean's Allure of the Seas",
+    price: "$1,430,000,000 ",
   },
 ];
 
-function convertAmountToIndianSystem(amount) {
-  const lakhCrore = Math.floor(amount / 10000000000);
-  const crore = Math.floor((amount % 10000000000) / 10000000);
-  const lakhs = Math.floor((amount % 10000000) / 100000);
-  const thousand = Math.floor((amount % 100000) / 1000);
-  const hundred = Math.floor((amount % 1000) / 100);
-  const remainder = amount % 100;
+function convertAmountToUSDSystem(amount) {
+  const billion = Math.floor(amount / 1000000000);
+  const million = Math.floor((amount % 1000000000) / 1000000);
+  const thousand = Math.floor((amount % 1000000) / 1000);
+  const remainder = amount % 1000;
 
   let result = "";
 
-  if (lakhCrore > 0) {
-    result += lakhCrore.toLocaleString() + " lakh crore ";
+  if (billion > 0) {
+    result += billion.toLocaleString() + " billion ";
   }
 
-  if (crore > 0) {
-    result += crore.toLocaleString() + " crore ";
-  }
-
-  if (lakhs > 0) {
-    result += lakhs.toLocaleString() + " lakh ";
+  if (million > 0) {
+    result += million.toLocaleString() + " million ";
   }
 
   if (thousand > 0) {
     result += thousand.toLocaleString() + " thousand ";
   }
 
-  if (hundred > 0) {
-    result += hundred.toLocaleString() + " hundred ";
-  }
-
   if (remainder > 0) {
     result +=
       remainder.toLocaleString(undefined, { maximumFractionDigits: 2 }) +
-      " rupees";
+      " dollars";
+  } else {
+    // Append "dollars" if there is no remainder
+    result += "dollars";
   }
 
   return result.trim();
@@ -429,8 +422,8 @@ function extractNumericValue(value) {
   return Number(value.replace(/[^\d.-]+/g, ""));
 }
 
-let finalvalue = 1820400000000;
-let previous = 1820400000000;
+let finalvalue = 220000000000;
+let previous = 220000000000;
 var totalCost = 0;
 // Event listeners for each item input
 for (let i = 0; i < itemwrappers.length; i++) {
@@ -460,9 +453,9 @@ for (let i = 0; i < itemwrappers.length; i++) {
       finalvalue = finalvalue + extractNumericValue(itemprice.innerText);
       quantityInput.value = parseInt(quantityInput.value) - 1;
 
-      totalCost = formatIndianCurrency(1820400000000 - finalvalue);
-      totalCostElement.innerHTML = `<hr><h3> Total Cost : ${totalCost}  ( ${convertAmountToIndianSystem(
-        1820400000000 - finalvalue
+      totalCost = formatUSDCurrency(220000000000 - finalvalue);
+      totalCostElement.innerHTML = `<hr><h3> Total Cost : ${totalCost}  ( ${convertAmountToUSDSystem(
+        220000000000 - finalvalue
       )} )</h3>`;
 
       previousValue = quantityInput.value;
@@ -590,22 +583,22 @@ for (let i = 0; i < itemwrappers.length; i++) {
 
     var costElements = receiptList.getElementsByClassName("cost");
 
-    totalCost = formatIndianCurrency(1820400000000 - finalvalue);
+    totalCost = formatUSDCurrency(220000000000 - finalvalue);
 
     if (totalCostElement && totalCostElement != null) {
       totalCostElement.parentNode.removeChild(totalCostElement);
       totalCostElement = document.createElement("div");
       totalCostElement.classList = "total-cost";
-      totalCostElement.innerHTML = `<hr><h3> Total Cost : ${totalCost}  ( ${convertAmountToIndianSystem(
-        1820400000000 - finalvalue
+      totalCostElement.innerHTML = `<hr><h3> Total Cost : ${totalCost}  ( ${convertAmountToUSDSystem(
+        220000000000 - finalvalue
       )} )</h3>`;
 
       reciept.appendChild(totalCostElement);
     } else if (existingItems.length === 0 && quantityValue !== 0) {
       totalCostElement = document.createElement("div");
       totalCostElement.classList = "total-cost";
-      totalCostElement.innerHTML = `<hr><h3> Total Cost : ${totalCost}  ( ${convertAmountToIndianSystem(
-        1820400000000 - finalvalue
+      totalCostElement.innerHTML = `<hr><h3> Total Cost : ${totalCost}  ( ${convertAmountToUSDSystem(
+        220000000000 - finalvalue
       )} )</h3>`;
 
       reciept.appendChild(totalCostElement);
@@ -754,28 +747,26 @@ for (let i = 0; i < itemwrappers.length; i++) {
 
       var costElements = receiptList.getElementsByClassName("cost");
 
-      totalCost = formatIndianCurrency(1820400000000 - finalvalue);
+      totalCost = formatUSDCurrency(220000000000 - finalvalue);
 
       if (totalCostElement && totalCostElement != null) {
         totalCostElement.parentNode.removeChild(totalCostElement);
         totalCostElement = document.createElement("div");
         totalCostElement.classList = "total-cost";
-        totalCostElement.innerHTML = `<hr><h3> Total Cost : ${totalCost}  ( ${convertAmountToIndianSystem(
-          1820400000000 - finalvalue
+        totalCostElement.innerHTML = `<hr><h3> Total Cost : ${totalCost}  ( ${convertAmountToUSDSystem(
+          220000000000 - finalvalue
         )} )</h3>`;
 
         reciept.appendChild(totalCostElement);
       } else {
         totalCostElement = document.createElement("div");
         totalCostElement.classList = "total-cost";
-        totalCostElement.innerHTML = `<hr><h3> Total Cost : ${totalCost}  ( ${convertAmountToIndianSystem(
-          1820400000000 - finalvalue
+        totalCostElement.innerHTML = `<hr><h3> Total Cost : ${totalCost}  ( ${convertAmountToUSDSystem(
+          220000000000 - finalvalue
         )} )</h3>`;
 
         reciept.appendChild(totalCostElement);
       }
-      console.log("existingItems.length : ", existingItems.length);
-      console.log("totalCostElement : ", totalCostElement);
 
       // Remove the total cost element if there are no child items
       if (existingItems.length === 0 && totalCostElement) {
@@ -789,7 +780,6 @@ for (let i = 0; i < itemwrappers.length; i++) {
   });
 
   itemwrapper.addEventListener("click", function () {
-    console.log("hi");
     if (
       Math.floor(finalvalue / extractNumericValue(itemprice.innerText)) >= 1
     ) {
@@ -798,7 +788,7 @@ for (let i = 0; i < itemwrappers.length; i++) {
   });
 }
 
-const formatIndianCurrency = (value) => {
+const formatUSDCurrency = (value) => {
   value = value.toString();
   var lastThree = value.substring(value.length - 3);
   var otherNumbers = value.substring(0, value.length - 3);
@@ -806,13 +796,15 @@ const formatIndianCurrency = (value) => {
     lastThree = "," + lastThree;
   }
   var formattedValue =
-    otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree;
-  return "₹ " + formattedValue;
+    otherNumbers.replace(/\B(?=(\d{3})+(?!\d))/g, ",") + lastThree;
+  return "$" + formattedValue;
 };
 
 let animationFrameId = null; // Variable to store the animation frame ID
 
 function animateValue(obj, start, end, duration) {
+  // console.log("start", start);
+  // console.log("End", end);
   if (animationFrameId) {
     // Cancel the ongoing animation if exists
     window.cancelAnimationFrame(animationFrameId);
@@ -820,30 +812,23 @@ function animateValue(obj, start, end, duration) {
   }
 
   const range = end - start;
-  const increment = range / (duration / 16); // Adjust 16 to control animation speed (ms/frame)
+  const frames = Math.ceil(duration / 16); // Calculate the total number of frames
+  const increment = range / frames;
 
   let currentValue = start;
-  let previousTimestamp = null;
+  let frameCount = 0;
 
-  function updateValue(timestamp) {
-    if (!previousTimestamp) previousTimestamp = timestamp;
-    const elapsed = timestamp - previousTimestamp;
+  function updateValue() {
+    currentValue += increment;
+    frameCount++;
 
-    if (elapsed > 16) {
-      currentValue += increment * Math.floor(elapsed / 16);
-      currentValue = Math.round(currentValue); // Round to the nearest whole number
-      previousTimestamp = timestamp;
-      obj.innerHTML = formatIndianCurrency(currentValue); // Update the animated value in the element
-    }
+    obj.innerHTML = formatUSDCurrency(Math.round(currentValue));
 
-    if (
-      (currentValue < end && increment > 0) ||
-      (currentValue > end && increment < 0)
-    ) {
+    if (frameCount < frames) {
       animationFrameId = window.requestAnimationFrame(updateValue);
     } else {
-      obj.innerHTML = formatIndianCurrency(end); // Ensure final value is displayed accurately
-      animationFrameId = null; // Reset the animation frame ID
+      obj.innerHTML = formatUSDCurrency(end);
+      animationFrameId = null;
     }
   }
 
