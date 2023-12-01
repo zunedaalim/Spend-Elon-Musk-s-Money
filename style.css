@@ -80,6 +80,9 @@ color:white; */
   font-size: 4rem;
   font-weight: bolder;
 }
+.elonMobile {
+  display: none;
+}
 .noSelect {
   transform: translate(0%);
   transition: 0.3s ease-in-out;
@@ -661,7 +664,16 @@ textarea {
 }
 @media (max-width: 690px) {
   .elon {
-    height: 225px;
+    display: none;
+  }
+  .elonMobile {
+    display: flex;
+    height: 275px;
+    margin-top: 60px;
+    border-radius: 100%;
+  }
+  .photo {
+    padding-bottom: 0;
   }
   header h2 {
     font-size: 1.6rem;
