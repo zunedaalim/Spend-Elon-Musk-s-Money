@@ -840,3 +840,33 @@ function scrollToBottom() {
   var element = document.getElementById("bottom");
   element.scrollIntoView();
 }
+var btn = document.getElementById("btn");
+btn.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  // Get values from form elements
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("userInput").value;
+
+  // Create email body
+  var body =
+    "name: " + name + "<br/> email: " + email + "<br/> Message: " + message;
+
+  // Send email
+  Email.send({
+    SecureToken: "1891bdf1-4580-4afb-a252-f0a503716c7d",
+    To: "imileke0@gmail.com",
+    From: `info@spendelonmoney.shop`,
+    Subject: "Hello ",
+    Body: body,
+  }).then((message) => {
+    // Alert user
+    alert(message);
+
+    // Clear the form
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("userInput").value = "";
+  });
+});
