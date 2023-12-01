@@ -80,7 +80,7 @@ color:white; */
   font-size: 4rem;
   font-weight: bolder;
 }
-.elonMobile {
+.Mobile {
   display: none;
 }
 .noSelect {
@@ -621,7 +621,7 @@ textarea {
   font-family: "Ysabeau Infant";
 }
 @media (max-width: 1400px) {
-  .elonMobile {
+  .Mobile {
     display: none;
   }
   .top {
@@ -669,7 +669,7 @@ textarea {
   .elon {
     display: none;
   }
-  .elonMobile {
+  .Mobile {
     display: flex;
     height: 275px;
     margin-top: 60px;
