@@ -621,6 +621,9 @@ textarea {
   font-family: "Ysabeau Infant";
 }
 @media (max-width: 1400px) {
+  .elonMobile {
+    display: none;
+  }
   .top {
     right: 20px;
   }
