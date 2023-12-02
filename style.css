@@ -691,7 +691,7 @@ textarea {
     width: 90%;
   }
   .photo h1 {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
   }
   .reciept {
     width: auto;
@@ -795,6 +795,11 @@ textarea {
   }
   .cost:focus {
     outline: none !important;
+  }
+}
+@media (max-width: 420px) {
+  .about {
+    font-size: 1.3rem;
   }
 }
 /* @media(max-width:500px){
