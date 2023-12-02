@@ -80,7 +80,7 @@ color:white; */
   font-size: 4rem;
   font-weight: bolder;
 }
-.Mobile {
+.mobile {
   display: none;
 }
 .noSelect {
@@ -621,7 +621,7 @@ textarea {
   font-family: "Ysabeau Infant";
 }
 @media (max-width: 1400px) {
-  .Mobile {
+  .mobile {
     display: none;
   }
   .top {
@@ -669,14 +669,17 @@ textarea {
   .elon {
     display: none;
   }
-  .Mobile {
+  .mobile {
     display: flex;
-    height: 275px;
-    margin-top: 60px;
+    height: 175px;
+    margin-top: 40px;
     border-radius: 100%;
   }
+
   .photo {
+    padding: 10px;
     padding-bottom: 0;
+    padding-top: 20px;
   }
   header h2 {
     font-size: 1.6rem;
@@ -798,6 +801,9 @@ textarea {
   }
 }
 @media (max-width: 420px) {
+  .photo h1 {
+    font-size: 1.6rem;
+  }
   .about {
     font-size: 1.3rem;
   }
