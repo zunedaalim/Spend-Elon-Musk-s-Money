@@ -80,7 +80,7 @@ const data = [
     price: "$500",
   },
   {
-    image: "./Pictures/concert.avif",
+    image: "./Pictures/concert.webp",
     text: "Justin Bieber Concert Ticket",
     price: "$200",
   },
