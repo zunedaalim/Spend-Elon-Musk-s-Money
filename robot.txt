@@ -1,0 +1,5 @@
+sitemap:https://spendelonmoney.shop/zuned_sitemap.xml
+
+
+User-agent: *
+Disallow:
