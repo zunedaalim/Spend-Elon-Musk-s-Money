@@ -394,12 +394,12 @@ function createBox(item) {
    <div class ="item-wrapper">
 <div class= "overflow">
 <img src= "${image}" alt =${text} /> </div> 
-<div class= "item-name">${text}</div>
+<label class= "item-name">${text}</label>
 <div class= "item-cost">${price}</div>
 <div class="item-controls">
 <button  class="button-64 sell"  role="button"><span class="text">Sell</span></button>
 
-<input type="number" class="item-input" value ="0">
+<input name="quantity" type="number" class="item-input" value ="0">
 <button  class="button-64 buy"   role="button"><span class="text">Buy</span></button>
 </div>
 </div>
