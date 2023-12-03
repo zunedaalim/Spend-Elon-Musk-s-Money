@@ -300,7 +300,7 @@ const data = [
   {
     image: "./Pictures/island.webp",
     text: "Private Island, Central America",
-    price: "$$1,500,000",
+    price: "$1,500,000",
   },
 
   {
@@ -571,6 +571,19 @@ for (let i = 0; i < itemwrappers.length; i++) {
       } else buyButton.disabled = false;
       previousvalue3 = previousValue;
       animateValue(obj, previous, finalvalue, 1600);
+
+      for (var i = 0; i < itemwrappers.length; i++) {
+        const itemwrapper = itemwrappers[i];
+        const itempricenew = itemwrapper.getElementsByClassName("item-cost")[0];
+        const itemControlnew = itemControls[i];
+        const newbuyButton = itemControlnew.getElementsByClassName("buy")[0];
+        if (previous / extractNumericValue(itempricenew.innerText) < 1) {
+          newbuyButton.disabled = true;
+        }
+        if (finalvalue / extractNumericValue(itempricenew.innerText) > 1) {
+          newbuyButton.disabled = false;
+        }
+      }
     }
 
     if (quantityInput.value === "0") {
@@ -729,7 +742,10 @@ for (let i = 0; i < itemwrappers.length; i++) {
         }
       }
 
-      if (!isItemExists) {
+      if (
+        !isItemExists &&
+        finalvalue / extractNumericValue(itemprice.innerText) > 1
+      ) {
         // Item doesn't exist in the receipt list, add a new item with quantity 1
         var details = document.createElement("div");
         details.classList = "appended-div";
