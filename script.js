@@ -4,6 +4,16 @@ const photo = document.getElementById("photo");
 
 const data = [
   {
+    image: "./Pictures/milk.webp",
+    text: "Milk (1ltr)",
+    price: "$2",
+  },
+  {
+    image: "./Pictures/Jordan-Expert-Deep-Clean-Toothbrush-315.webp",
+    text: "ToothBrush",
+    price: "$3",
+  },
+  {
     image: "./Pictures/big-mac-meal-230.webp",
 
     text: "Big Mac Meal",
@@ -14,11 +24,7 @@ const data = [
     text: "Flip-Flops",
     price: "$15",
   },
-  {
-    image: "./Pictures/Jordan-Expert-Deep-Clean-Toothbrush-315.webp",
-    text: "ToothBrush",
-    price: "$3",
-  },
+
   {
     image: "./Pictures/spotify.png",
     text: "Spotify",
@@ -29,11 +35,7 @@ const data = [
     text: "Netflix (1 Month)",
     price: "$12",
   },
-  {
-    image: "./Pictures/milk.webp",
-    text: "Milk (1ltr)",
-    price: "$2",
-  },
+
   {
     image: "./Pictures/hercules-rf-15610.webp",
     text: "Hercules Bicycle",
@@ -376,10 +378,10 @@ function convertAmountToUSDSystem(amount) {
   if (remainder > 0) {
     result +=
       remainder.toLocaleString(undefined, { maximumFractionDigits: 2 }) +
-      " dollars";
+      " Dollars";
   } else {
     // Append "dollars" if there is no remainder
-    result += "dollars";
+    result += "Dollars";
   }
 
   return result.trim();
@@ -865,6 +867,15 @@ btn.addEventListener("click", function (e) {
   var email = document.getElementById("email").value;
   var message = document.getElementById("userInput").value;
 
+  // Validate email
+  if (email.trim() === "") {
+    alert("Please enter a valid email address.");
+    return; // Stop execution if email is empty
+  }
+  if (message.trim() === "") {
+    alert("Please enter your message.");
+    return; // Stop execution if email is empty
+  }
   // Create email body
   var body =
     "name: " + name + "<br/> email: " + email + "<br/> Message: " + message;
