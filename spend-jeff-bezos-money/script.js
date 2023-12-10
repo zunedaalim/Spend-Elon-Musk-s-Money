@@ -895,7 +895,7 @@ function animateValue(obj, start, end, duration) {
       obj.style.lineHeight = "2rem";
       obj.style.textAlign = "center";
       obj.textContent =
-        "Congratulations! You've successfully spent Jeff Bezos $170 billion! You're now officially the world's most extravagant spender. Keep on dreaming big!";
+        "Congratulations! You've successfully spent Elon Musk $220 billion! You're now officially the world's most extravagant spender. Keep on dreaming big!";
 
       var selectedElements = document.querySelectorAll(".item-input");
 
@@ -910,7 +910,7 @@ function animateValue(obj, start, end, duration) {
       obj.style.lineHeight = "2rem";
       obj.style.textAlign = "center";
       obj.textContent =
-        "Congratulations! You've successfully Jeff Bezos $170 billion! You're now officially the world's most extravagant spender. Keep on dreaming big!";
+        "Congratulations! You've successfully spent Elon Musk $220 billion! You're now officially the world's most extravagant spender. Keep on dreaming big!";
 
       var selectedElements = document.querySelectorAll(".item-input");
 
