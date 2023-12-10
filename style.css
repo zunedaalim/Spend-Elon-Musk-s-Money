@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Vibur&family=Wix+Madefor+Text&display=swap&family=Ysabeau+Infant:wght@300&family=Sacramento&display=swap");
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Vibur&family=Wix+Madefor+Text&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Vibur&family=Wix+Madefor+Text&display=swap&family=Ysabeau+Infant:wght@300&family=Sacramento&family=Lato:wght@500&display=swap");
 
 @font-face {
   font-family: "Audrey";
@@ -48,6 +47,47 @@ body {
   margin: 0;
   background-color: #f1f2f6;
 }
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  border-bottom: 1px solid black;
+  padding: 20px 5px;
+  background-color: rgb(30, 30, 30); /* Slightly Lighter Shade */
+}
+.navbar a {
+  cursor: pointer;
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  font-family: Ysabeau Infant, sans-serif;
+  font-size: 22px;
+
+  padding: 9px 0;
+  color: #fffccb;
+}
+.navbar a:active {
+  color: whitesmoke;
+}
+.navbar a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #f5f5dc;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -63,7 +103,8 @@ body {
 }
 
 .photo {
-  padding: 30px 30px;
+  margin-top: 10px;
+  padding: 50px 30px;
   width: 100%;
   height: auto;
   max-width: 960px;
@@ -95,9 +136,10 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
   line-height: 30px;
-  font-size: 17px;
+  font-size: 18px;
   letter-spacing: 1px;
   font-family: "Ysabeau Infant";
+  color: #333333;
 }
 .fancy {
   position: relative;
@@ -119,7 +161,7 @@ body {
 .sticky {
   font-family: Roboto, sans-serif;
   color: #fff;
-
+  text-align: center;
   font-size: 2.5rem;
   font-weight: 700;
   padding: 17px;
@@ -127,11 +169,18 @@ body {
   width: 100%;
   max-width: 960px;
   padding-top: 20px;
-  z-index: 9999;
+  z-index: 999;
   position: sticky;
   top: 0px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   background-image: linear-gradient(144deg, #af40ff, #7b68f5 50%, #00ddeb);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 section {
@@ -157,8 +206,7 @@ section {
   cursor: pointer;
   height: 300px;
 
-  margin-top: 60px;
-
+  margin-top: 80px;
   -webkit-transform: scale(1.1);
 
   transform: scale(1.1);
@@ -402,16 +450,14 @@ input::-webkit-inner-spin-button {
 }
 .name {
   font-size: 17px;
-
-  width: 160px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: rgb(50, 50, 50);
+  width: 200px;
+  font-family: "Ysabeau Infant";
+  color: rgb(0, 0, 0);
 
   text-decoration: none;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1rem;
   display: inline-block;
-  padding: 15px 20px;
+  padding: 15px 5px;
   position: relative;
 }
 .name::after {
@@ -433,6 +479,9 @@ input::-webkit-inner-spin-button {
 }
 .number {
   color: rgb(50, 50, 50);
+  font-family: "Ysabeau Infant";
+  color: rgb(0, 0, 0);
+
   width: 45px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -461,6 +510,8 @@ input::-webkit-inner-spin-button {
 }
 .cost {
   color: rgb(50, 50, 50);
+  font-family: "Ysabeau Infant";
+  color: rgb(0, 0, 0);
   width: 130px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -493,20 +544,20 @@ input::-webkit-inner-spin-button {
   margin-bottom: 20px;
 }
 .total-cost h3 {
-  font-family: Roboto;
+  /* font-family: Roboto; */
+  font-family: "Ysabeau Infant";
   margin: auto;
 
-  font-weight: bolder;
   font-size: 20px;
-  font-weight: 600;
+
   color: #5b42f3;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  font-weight: bolder;
 }
 .total-cost h3:hover {
-  transform: translate(0, -10%);
   color: #371ce9;
   font-weight: bolder;
   text-shadow: 2px 2px rgba(151, 65, 252, 0.2);
@@ -569,7 +620,7 @@ hr {
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border: 2px solid #cc6666;
+  border: 2px solid #e74c3c;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -577,8 +628,9 @@ hr {
   box-sizing: border-box;
   outline: 0;
 }
+
 .feedback-input:focus {
-  border: 2px solid #cc4949;
+  border: 2px solid #3d3232;
 }
 textarea {
   height: 150px;
@@ -589,7 +641,7 @@ textarea {
 .submitbtn {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   width: 100%;
-  background: #cc6666;
+  background: #e74c3c;
   border-radius: 5px;
   border: 0;
   cursor: pointer;
@@ -601,18 +653,87 @@ textarea {
   margin-top: -4px;
   font-weight: 700;
 }
+.submitbtn:hover {
+  box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+}
+.submitbtn:active {
+  transform: scale(0.98);
+}
 .contact {
   margin-bottom: 50px;
-
   width: 500px;
+}
+.Contact {
+  font-family: Ysabeau Infant;
+  margin-bottom: 10px;
+}
+.about {
+  font-family: Ysabeau Infant;
+  margin-bottom: -40px;
+  word-spacing: 6px;
 }
 .inputform p {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
   line-height: 30px;
-  font-size: 17px;
+  font-size: 18px;
   letter-spacing: 1px;
   font-family: "Ysabeau Infant";
+}
+#lottie-animation {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999;
+  scale: 1.5;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-family: Ysabeau Infant;
+  font-size: 1.2rem;
+  transition: font-size 0.3s ease;
+}
+.links {
+  padding: 15px 0;
+  width: fit-content;
+  margin: 0 auto;
+}
+footer .links a:hover {
+  transform: scale(1.04);
+}
+footer .links a:active {
+  color: darkgray;
+}
+footer p {
+  line-height: 1.5;
+  font-family: Ysabeau Infant;
+  font-weight: bold;
+
+  word-spacing: 5px;
+  font-size: 1.2rem;
+  color: #605f5f;
+  color: #818080;
+  font-size: 1rem;
+  width: fit-content;
+  margin: 5px auto;
+}
+@media (max-width: 420px) {
+  footer a {
+    font-size: 1rem;
+  }
 }
 @media (max-width: 1400px) {
   .mobile {
@@ -732,56 +853,11 @@ textarea {
   .item-input {
     font-size: 14px;
   }
-  .total-cost h3 {
-    font-size: 17px;
-
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    -webkit-tap-highlight-color: transparent;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  .total-cost h3:focus {
-    outline: none !important;
-  }
-  .name {
-    font-size: 14px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    -webkit-tap-highlight-color: transparent;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  .name:focus {
-    outline: none !important;
-  }
-  .number {
-    font-size: 14px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    -webkit-tap-highlight-color: transparent;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  .number:focus {
-    outline: none !important;
-  }
+  .total-cost h3,
+  .name,
+  .number,
   .cost {
     font-size: 14px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    -webkit-tap-highlight-color: transparent;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -790,16 +866,103 @@ textarea {
     -ms-user-select: none;
     user-select: none;
   }
+
+  .total-cost h3:focus,
+  .name:focus,
+  .number:focus,
   .cost:focus {
     outline: none !important;
   }
+
+  .cost:focus {
+    outline: none !important;
+  }
+  .navbar a {
+    font-size: 16px;
+  }
 }
+/* Default styles for non-mobile devices */
+#lottie-animation-container {
+  display: none;
+}
+
+/* Media query for mobile devices (adjust as needed) */
+
 @media (max-width: 420px) {
+  .mobile {
+    height: 200px;
+  }
+  .top {
+    font-size: 1.5rem;
+    padding: 7px;
+  }
+  .bottom {
+    font-size: 1.5rem;
+    padding: 7px;
+  }
+  #lottie-animation-container {
+    display: none;
+  }
   .photo h1 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
   .about {
     font-size: 1.3rem;
+    margin-bottom: 0;
+  }
+  #items {
+    width: 100%;
+  }
+  .reciept {
+    padding: 0;
+  }
+  .reciept h2 {
+    width: auto;
+  }
+  .reciept .name {
+    padding: 8px;
+    padding-right: 0;
+  }
+  .total-cost {
+    width: 100%;
+  }
+  .navbar a {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 5px;
+    padding-bottom: 10px;
+  }
+  .About p {
+    font-size: 16px;
+  }
+  .About {
+    padding: 0 10px;
+  }
+  .inputform p {
+    font-size: 16px;
+  }
+
+  .feedback-input {
+    width: 75%;
+    margin: 5px auto;
+    padding: 5px;
+  }
+
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+  }
+  .submitbtn {
+    width: 75%;
+    margin: 10px auto;
+  }
+  .submitbtn {
+    font-size: 16px;
+  }
+  .sticky {
+    font-size: 1.8rem;
+    padding: 15px 0;
   }
 }
 /* @media(max-width:500px){

@@ -26,19 +26,19 @@ const data = [
   },
 
   {
-    image: "./Pictures/spotify.png",
+    image: "./Pictures/spotify.webp",
     text: "Spotify",
     price: "$10",
   },
   {
-    image: "./Pictures/netflix-logo-text-emblem-31.png",
+    image: "./Pictures/year-of-netflix.webp",
     text: "Netflix (1 Month)",
     price: "$12",
   },
 
   {
     image: "./Pictures/hercules-rf-15610.webp",
-    text: "Hercules Bicycle",
+    text: "Bicycle",
     price: "$150",
   },
   {
@@ -48,11 +48,11 @@ const data = [
   },
   {
     image: "./Pictures/hero-splendor-plus-left-side-view3-64470.webp",
-    text: "Hero Splendor Plus",
+    text: "Bike (100cc)",
     price: "$800",
   },
   {
-    image: "./Pictures/pvr-380.avif",
+    image: "./Pictures/pvr-380.webp",
     text: "PVR Ticket",
     price: "$10",
   },
@@ -60,6 +60,11 @@ const data = [
     image: "./Pictures/titan-999.webp",
     text: "Titan Watch",
     price: "$50",
+  },
+  {
+    image: "./Pictures/prada-paperclip.webp",
+    text: "Prada Paper Clip",
+    price: "$185",
   },
   {
     image: "./Pictures/smarttv.webp",
@@ -116,7 +121,11 @@ const data = [
     text: "Macbook pro (M3)",
     price: "$ 1,299",
   },
-
+  {
+    image: "./Pictures/rambagh-palace-average-30000.webp",
+    text: "Rambagh Palace (1- Night)",
+    price: "$5,000",
+  },
   {
     image: "./Pictures/apple-vr.webp",
     text: "Apple Vision Pro Headset",
@@ -137,6 +146,11 @@ const data = [
     image: "./Pictures/2019-mac-pro-side-and-front.webp",
     text: "Apple Mac Pro",
     price: "$5,999",
+  },
+  {
+    image: "./Pictures/Nike-Air-Force-1-Low-Louis-Vuitton.webp",
+    text: "Nike Air Force 1 Louis Vuitton",
+    price: "$2750",
   },
   {
     image: "./Pictures/Audi-A8.webp",
@@ -175,26 +189,27 @@ const data = [
     text: "Lamborghini Avantador",
     price: "$825,000",
   },
+
   {
     image: "./Pictures/new-york-mets-flag.webp",
     text: "The New York Mets",
     price: "$334,230,000",
   },
-
+  {
+    image: "./Pictures/ducks.webp",
+    text: "1 Million Rubber Ducks",
+    price: "$5,000,000",
+  },
   {
     image: "./Pictures/Buggati-Centodieci-9million.webp",
     text: "Buggati Centodieci",
     price: "$9,000,000",
   },
+
   {
-    image: "./Pictures/Nike-Air-Force-1-Low-Louis-Vuitton.webp",
-    text: "Nike Air Force 1 Louis Vuitton",
-    price: "$2750",
-  },
-  {
-    image: "./Pictures/rambagh-palace-average-30000.webp",
-    text: "Rambagh Palace (1- Night)",
-    price: "$5,000",
+    image: "./Pictures/town.webp",
+    text: "Purchase a Town",
+    price: "$2,000,000",
   },
 
   {
@@ -207,11 +222,18 @@ const data = [
     text: "Space Trip",
     price: "$500,000",
   },
+
+  {
+    image: "./Pictures/Billionaire-Vodka.webp",
+    text: "The Billionaire Vodka",
+    price: "$3,750,000",
+  },
   {
     image: "./Pictures/H145 Airbus helicopter-85cr.webp",
     text: "H145 Airbus Helicopter",
     price: "$7,925,000",
   },
+
   {
     image: "./Pictures/Mansion-52million.webp",
     text: "Mansion",
@@ -246,6 +268,11 @@ const data = [
     image: "./Pictures/emirates-first-class-5,02,876.webp",
     text: "Emirates First Class",
     price: "$10,000",
+  },
+  {
+    image: "./Pictures/golden-toilet.webp",
+    text: "Golden Toilet Paper",
+    price: "$1,300,000",
   },
   {
     image: "./Pictures/bombay-saphore-200000.webp",
@@ -290,7 +317,7 @@ const data = [
   },
   {
     image: "./Pictures/toilet-30000.webp",
-    text: " Golden Toilet",
+    text: "Solid Gold Toilet",
     price: "$1,000,000",
   },
   {
@@ -330,7 +357,7 @@ const data = [
   {
     image: "./Pictures/apache-helicopter.webp",
     text: "Apache Helicopter",
-    price: "$ 13,900,000",
+    price: "$13,900,000",
   },
   {
     image: "./Pictures/boeing-747.webp",
@@ -342,16 +369,35 @@ const data = [
     text: "Rolls Royce Boat Tail",
     price: "$28,000,000",
   },
-
+  {
+    image: "./Pictures/cullinan.webp",
+    text: "Cullinan Diamond",
+    price: "$400,000,000",
+  },
   {
     image: "./Pictures/antilia-15000.webp",
     text: "Antilia",
-    price: "$ 2,000,000,000",
+    price: "$2,000,000,000",
   },
   {
     image: "./Pictures/cruise-ship.webp",
-    text: " Royal Caribbean's Allure of the Seas",
+    text: "Royal Caribbean's Allure of the Seas",
     price: "$1,430,000,000 ",
+  },
+  {
+    image: "./Pictures/worldhunger.webp",
+    text: "Feed 50 Million People for a Year",
+    price: "$15,000,000,000 ",
+  },
+  {
+    image: "./Pictures/housing.webp",
+    text: "Provide Homes to a Million People",
+    price: "$50,000,000,000 ",
+  },
+  {
+    image: "./Pictures/spacestation.webp",
+    text: "International Space Station",
+    price: "$150,000,000,000 ",
   },
 ];
 
@@ -395,7 +441,7 @@ function createBox(item) {
   box.innerHTML = `
    <div class ="item-wrapper">
 <div class= "overflow">
-<img src= "${image}" alt =${text} /> </div> 
+<img src= "${image}" alt =${text} loading=“lazy” decoding=“async”/> </div> 
 <label class= "item-name">${text}</label>
 <div class= "item-cost">${price}</div>
 <div class="item-controls">
@@ -525,20 +571,19 @@ for (let i = 0; i < itemwrappers.length; i++) {
     }
 
     decreaseItem();
+    check();
   });
-
+  //Input
   quantityInput.addEventListener("input", function () {
-    if (quantityInput.value == "") {
+    // Check if the input is an empty string
+    if (quantityInput.value === "") {
       quantityInput.value = 0;
     }
 
+    // Convert the input value to a floating-point number
     let inputValue = parseFloat(quantityInput.value);
 
-    if (quantityInput.value == "") {
-      quantityInput.value = 0;
-    }
-
-    if (isNaN(inputValue)) {
+    if (isNaN(inputValue) || inputValue < 0) {
       quantityInput.value = "0";
       previousValue = 0;
       hasInitialValue = true;
@@ -573,21 +618,9 @@ for (let i = 0; i < itemwrappers.length; i++) {
       } else buyButton.disabled = false;
       previousvalue3 = previousValue;
       animateValue(obj, previous, finalvalue, 1600);
-
-      for (var i = 0; i < itemwrappers.length; i++) {
-        const itemwrapper = itemwrappers[i];
-        const itempricenew = itemwrapper.getElementsByClassName("item-cost")[0];
-        const itemControlnew = itemControls[i];
-        const newbuyButton = itemControlnew.getElementsByClassName("buy")[0];
-        if (previous / extractNumericValue(itempricenew.innerText) < 1) {
-          newbuyButton.disabled = true;
-        }
-        if (finalvalue / extractNumericValue(itempricenew.innerText) > 1) {
-          newbuyButton.disabled = false;
-        }
-      }
     }
-
+    //Checking
+    check();
     if (quantityInput.value === "0") {
       sellButton.disabled = true;
     } else {
@@ -618,11 +651,7 @@ for (let i = 0; i < itemwrappers.length; i++) {
 
       reciept.appendChild(totalCostElement);
     }
-    if (existingItems.length === 1 && quantityValue === 0) {
-      totalCostElement.parentNode.removeChild(totalCostElement);
-      totalCostElement = null;
-    }
-
+    //Reciept
     function updateItemFromInput() {
       var itemName = itemname.innerText;
       var quantityInput = document.getElementById("quantityInput");
@@ -643,12 +672,6 @@ for (let i = 0; i < itemwrappers.length; i++) {
         var heading = document.createElement("h2");
         heading.innerHTML = `Your Reciept  `;
         receiptList.appendChild(heading);
-      } else if (existingItems.length === 1 && quantityValue === 0) {
-        // Remove the heading "Receipt" if there is only one item and the quantity becomes zero
-        var heading = receiptList.querySelector("h2");
-        if (heading) {
-          heading.parentNode.removeChild(heading);
-        }
       }
 
       if (itemIndex !== -1) {
@@ -675,7 +698,19 @@ for (let i = 0; i < itemwrappers.length; i++) {
         receiptList.appendChild(details);
       }
     }
+
     updateItemFromInput();
+    if (existingItems.length === 0) {
+      if (totalCostElement) {
+        totalCostElement.parentNode.removeChild(totalCostElement);
+        totalCostElement = null;
+      }
+
+      var heading = receiptList.querySelector("h2");
+      if (heading) {
+        heading.parentNode.removeChild(heading);
+      }
+    }
   });
 
   //Buy
@@ -744,10 +779,7 @@ for (let i = 0; i < itemwrappers.length; i++) {
         }
       }
 
-      if (
-        !isItemExists &&
-        finalvalue / extractNumericValue(itemprice.innerText) > 1
-      ) {
+      if (!isItemExists) {
         // Item doesn't exist in the receipt list, add a new item with quantity 1
         var details = document.createElement("div");
         details.classList = "appended-div";
@@ -793,16 +825,8 @@ for (let i = 0; i < itemwrappers.length; i++) {
     }
 
     addItem();
-
+    check();
     animateValue(obj, previous, finalvalue, 1600);
-  });
-
-  itemwrapper.addEventListener("click", function () {
-    if (
-      Math.floor(finalvalue / extractNumericValue(itemprice.innerText)) >= 1
-    ) {
-      buyButton.disabled = false;
-    } else buyButton.disabled = true;
   });
 }
 
@@ -819,16 +843,32 @@ const formatUSDCurrency = (value) => {
 };
 
 let animationFrameId = null; // Variable to store the animation frame ID
-
+var container = document.getElementById("lottie-animation");
 function animateValue(obj, start, end, duration) {
-  // console.log("start", start);
-  // console.log("End", end);
   if (animationFrameId) {
     // Cancel the ongoing animation if exists
     window.cancelAnimationFrame(animationFrameId);
     animationFrameId = null;
   }
+  // Check if the element exists before attempting to change its content
+  if (finalvalue === 0) {
+    // Your script using lottie
+    var animationPath = "../Animation.json";
+    // Get the container element
 
+    // Load the animation
+    var anim = lottie.loadAnimation({
+      container: container,
+      renderer: "svg",
+      loop: true,
+      autoplay: true,
+      path: animationPath,
+    });
+    anim.setSpeed(0.5);
+
+    // Set display to "block"
+    container.style.display = "block";
+  }
   const range = end - start;
   const frames = Math.ceil(duration / 16); // Calculate the total number of frames
   const increment = range / frames;
@@ -840,60 +880,72 @@ function animateValue(obj, start, end, duration) {
     currentValue += increment;
     frameCount++;
 
-    obj.innerHTML = formatUSDCurrency(Math.round(currentValue));
+    obj.textContent = formatUSDCurrency(Math.round(currentValue));
 
     if (frameCount < frames) {
       animationFrameId = window.requestAnimationFrame(updateValue);
     } else {
-      obj.innerHTML = formatUSDCurrency(end);
+      obj.textContent = formatUSDCurrency(end);
       animationFrameId = null;
+    }
+    if (finalvalue === 0 && window.innerWidth > 420) {
+      obj.style.fontFamily = "Ysabeau Infant"; // Set the desired font family
+      obj.style.fontSize = "1.6rem";
+      obj.style.padding = "1rem 8rem 2rem 8rem";
+      obj.style.lineHeight = "2rem";
+      obj.style.textAlign = "center";
+      obj.textContent =
+        "Congratulations! You've successfully spent Jeff Bezos $170 billion! You're now officially the world's most extravagant spender. Keep on dreaming big!";
+
+      var selectedElements = document.querySelectorAll(".item-input");
+
+      // Disable each selected input element
+      selectedElements.forEach(function (input) {
+        input.disabled = true;
+      });
+    } else if (finalvalue === 0 && window.innerWidth < 420) {
+      obj.style.fontFamily = "Ysabeau Infant"; // Set the desired font family
+      obj.style.fontSize = "1.5rem";
+      obj.style.padding = "1rem 2rem";
+      obj.style.lineHeight = "2rem";
+      obj.style.textAlign = "center";
+      obj.textContent =
+        "Congratulations! You've successfully Jeff Bezos $170 billion! You're now officially the world's most extravagant spender. Keep on dreaming big!";
+
+      var selectedElements = document.querySelectorAll(".item-input");
+
+      // Disable each selected input element
+      selectedElements.forEach(function (input) {
+        input.disabled = true;
+      });
     }
   }
 
   // Start the animation
   animationFrameId = window.requestAnimationFrame(updateValue);
 }
+///INITIAL ANIMATION
+animateValue(obj, 0, 220000000000, 1000);
 
 function scrollToBottom() {
   var element = document.getElementById("bottom");
   element.scrollIntoView();
 }
-var btn = document.getElementById("btn");
-btn.addEventListener("click", function (e) {
-  e.preventDefault();
 
-  // Get values from form elements
-  var name = document.getElementById("name").value;
-  var email = document.getElementById("email").value;
-  var message = document.getElementById("userInput").value;
+//Check
+function check() {
+  for (var i = 0; i < itemwrappers.length; i++) {
+    const itemwrapper = itemwrappers[i];
+    const itempricenew = itemwrapper.getElementsByClassName("item-cost")[0];
+    const itemControlnew = itemControls[i];
+    const newbuyButton = itemControlnew.getElementsByClassName("buy")[0];
 
-  // Validate email
-  if (email.trim() === "") {
-    alert("Please enter a valid email address.");
-    return; // Stop execution if email is empty
+    if (finalvalue / extractNumericValue(itempricenew.innerText) < 1) {
+      newbuyButton.disabled = true;
+    }
+    if (finalvalue / extractNumericValue(itempricenew.innerText) > 1) {
+      newbuyButton.disabled = false;
+    }
   }
-  if (message.trim() === "") {
-    alert("Please enter your message.");
-    return; // Stop execution if email is empty
-  }
-  // Create email body
-  var body =
-    "name: " + name + "<br/> email: " + email + "<br/> Message: " + message;
-
-  // Send email
-  Email.send({
-    SecureToken: "1891bdf1-4580-4afb-a252-f0a503716c7d",
-    To: "imileke0@gmail.com",
-    From: `info@spendelonmoney.shop`,
-    Subject: "Hello ",
-    Body: body,
-  }).then((message) => {
-    // Alert user
-    alert(message);
-
-    // Clear the form
-    document.getElementById("name").value = "";
-    document.getElementById("email").value = "";
-    document.getElementById("userInput").value = "";
-  });
-});
+}
+check();

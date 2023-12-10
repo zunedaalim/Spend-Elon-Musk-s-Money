@@ -2,37 +2,37 @@
 <html lang="en">
   <head>
     <!-- Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-BGFKHCVPC3"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-BGFKHCVPC3");
-    </script>
 
     <!-- Character set and viewport -->
     <meta name="robots" content="index" />
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Stylesheet -->
+    <style>
+      .fancy {
+        position: relative;
+        white-space: nowrap;
+      }
+
+      .fancy:after {
+        --deco-height: 0.3125em;
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: calc(var(--deco-height) * -0.625);
+        height: var(--deco-height);
+        background-image: url("data:image/svg+xml,%3Csvg width='100' height='64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23a)'%3E%3Cpath d='M-17 30.5C-1 22 72-4 54 13 37.9 28.2-2.5 57.5 16 55.5s72-29 104-40' stroke='%2300FDCF' stroke-width='10'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='a'%3E%3Cpath fill='%23fff' d='M0 0h100v64H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+        background-size: auto 100%;
+        background-repeat: round;
+        background-position: 0em;
+      }
+    </style>
     <link rel="stylesheet" href="style.css" />
-    <link rel="canonical" href="http://spendelonmoney.shop" />
+    <link rel="canonical" href="https://spendelonmoney.shop" />
 
     <!-- Preload font -->
-    <link
-      rel="preload"
-      href="./fonts/Audrey-Normal.otf"
-      as="font"
-      type="font/otf"
-      crossorigin
-    />
 
     <!-- Favicon -->
     <link
@@ -60,20 +60,38 @@
       title="Go to bottom"
       >↓</a
     >
-
-    <div class="container">
+    <nav id="navigation">
+      <div class="navbar">
+        <a target="_blank" href="./index.html">Spend Elon Musk Money </a>
+        <a target="_blank" href="./spend-bill-gates-money/index.html"
+          >Spend Bill Gates Money
+        </a>
+        <a target="_blank" href="./spend-jeff-bezos-money/index.html"
+          >Spend Jeff Bezos Money
+        </a>
+      </div>
+    </nav>
+    <header class="container">
       <section class="photo" id="photo">
         <div class="elonmusk">
           <h1 class="fancy">Spend Elon Musk Money</h1>
-          <img class="elon" src="./Pictures/elonmusk.webp" alt="Elon Musk" />
-          <!-- <img class="mobile" src="./Pictures/elonmusk.webp" alt="Elon Musk" /> -->
+          <img
+            class="elon"
+            src="./Pictures/elonmusk.webp"
+            alt="Broke Elon Musk"
+          />
+          <img
+            class="mobile"
+            src="./Pictures/elonmusk.webp"
+            alt="Broke Elon Musk"
+          />
 
           <br />
           <br />
         </div>
       </section>
-    </div>
-
+    </header>
+    <div id="lottie-animation"></div>
     <div class="wrapper">
       <section class="sticky" id="sticky">$220,000,000,000</section>
       <main></main>
@@ -88,7 +106,11 @@
     <div class="ese"></div>
 
     <!-- Back to top link -->
-    <a href="#photo" class="top" aria-label="Back to top" title="Back to top"
+    <a
+      href="#navigation"
+      class="top"
+      aria-label="Back to top"
+      title="Back to top"
       >↑</a
     >
     <div class="container">
@@ -96,51 +118,56 @@
         <h2 class="fancy about">About Spend Elon Musk Money</h2>
       </div>
       <div class="photo">
-        <p>
-          Welcome to "Spend Elon Musk Money" game the ultimate playground where
-          you can spend all of Elon Musk money. Our simulator game, "<a
-            title="Spend Elon Musk Money"
-            href="#photo"
-            style="color: #f55889"
-            >Spend Elon Musk Money</a
-          >
+        <div class="About">
+          <p>
+            Welcome to "Spend Elon Musk Money" game the ultimate playground
+            where you can spend all of Elon Musk money. Our simulator game, "<a
+              title="Spend Elon Musk Money"
+              href="#navigation"
+              style="color: #f55889"
+              >Spend Elon Musk Money</a
+            >
 
-          ," invites you to embark on a journey of luxury life by spending Elon
-          Musk fortune on whatever you desire.
-        </p>
-        <br />
-        <p>
-          Have you ever wondered what it's like to be Elon Musk, Imagine having
-          $220 billion in your bank account. Now how would you spend Elon Musk
-          $220 billion fortune? The goal is simple spend it all, and spend it
-          fast. Get ready to dive into the billionaire experience with "Spend
-          Elon Musk Money" – where the clock is ticking, and the billions are
-          flying!
-        </p>
-        <br />
-        <p>
-          Hey there, welcome to the world of unlimited spending! Being a
-          billionaire is all about turning your wildest dreams into reality.
-          Exciting news! Today, you're a billionaire. Let's see how fast you can
-          spend all those billions in just one day!
-        </p>
+            ," invites you to embark on a journey of luxury life by spending
+            Elon Musk fortune on whatever you desire.
+          </p>
+          <br />
+          <p>
+            Have you ever wondered what it's like to be Elon Musk, Imagine
+            having $220 billion in your bank account. Now how would you spend
+            Elon Musk $220 billion fortune? The goal is simple spend it all, and
+            spend it fast. Get ready to dive into the billionaire experience
+            with "Spend Elon Musk Money" – where the clock is ticking, and the
+            billions are flying!
+          </p>
+          <br />
+          <p>
+            Hey there, welcome to the world of unlimited spending! Being a
+            billionaire is all about turning your wildest dreams into reality.
+            Exciting news! Today, you're a billionaire. Let's see how fast you
+            can spend all those billions in just one day!
+          </p>
+        </div>
       </div>
       <br />
       <br />
-      <h2 class="fancy">Contact Me</h2>
-      <div class="contact">
+      <h2 class="fancy Contact">Contact Us</h2>
+      <div class="contact" id="contact">
         <div class="inputform">
           <p>
             Do you have suggestions to add more items or just want to say hi?
             Feel free to shoot me an email!
           </p>
           <form
-            onsubmit="sendEmail(); reset(); return false;"
+            action="https://formsubmit.co/info@spendelonmoney.shop"
+            method="POST"
             class="inputform"
           >
             <input
               class="feedback-input"
               type="text"
+              name="Name"
+              required
               id="name"
               placeholder="Name"
             />
@@ -149,23 +176,50 @@
               placeholder="Email"
               class="feedback-input"
               type="email"
+              name="Email"
+              required
             />
             <textarea
               class="feedback-input"
               type="text"
               id="userInput"
-              name="userInput"
+              name="Message"
               placeholder="Type here..."
+              required
             ></textarea>
             <button id="btn" class="submitbtn" type="submit">Submit</button>
           </form>
         </div>
       </div>
     </div>
+    <footer>
+      <div class="links">
+        <a href="#contact" target="_blank">Contact </a>
+        <a href="privacypolicy.html" target="_blank">Privacy Policy</a>
+        <a href="termsofuse.html" target="_blank">Terms of Use</a>
+        <a href="copyrights.html" target="_blank">Copyrights</a>
+      </div>
 
+      <p>
+        All Images © Rights Reserved to Their Respective Owners & Publishers.
+      </p>
+    </footer>
+    <!-- Script tags for JavaScript files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-BGFKHCVPC3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-BGFKHCVPC3");
+    </script>
     <!-- Script tags for JavaScript files -->
     <script src="script.js"></script>
-
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
   </body>
 </html>
