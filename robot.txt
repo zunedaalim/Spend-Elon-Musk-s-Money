@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://spendelonmoney.shop/zuned_sitemap.xml
+Sitemap: https://www.spendelonmoney.shop/zuned_sitemap.xml
