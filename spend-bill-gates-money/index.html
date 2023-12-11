@@ -154,20 +154,20 @@
       <h2 class="fancy Contact">Contact Me</h2>
 
       <div class="contact">
-        <div class="inputform">
+        <div class="gform">
           <p>
             Do you have suggestions to add more items or just want to say hi?
             Feel free to shoot me an email!
           </p>
           <form
-            action="https://formsubmit.co/481a7614515610757df0d5dcd09b2b59"
+            action="https://script.google.com/macros/s/AKfycbwfYhb4fvUX_ew28_rr-BMizbnZkQWnN2oP7qc_Z0xpAAsx-77o3lylMun3FD2ZQjop/exec"
             method="POST"
-            class="inputform"
+            class="gform"
           >
             <input
               class="feedback-input"
               type="text"
-              name="Name"
+              name="name"
               required
               id="name"
               placeholder="Name"
@@ -177,18 +177,22 @@
               placeholder="Email"
               class="feedback-input"
               type="email"
-              name="Email"
+              name="email"
               required
             />
             <textarea
               class="feedback-input"
               type="text"
               id="userInput"
-              name="Message"
+              name="message"
               placeholder="Type here..."
               required
             ></textarea>
             <button id="btn" class="submitbtn" type="submit">Submit</button>
+            <div style="display:none" class="thankyou_message">
+              <h2>Thanks for contacting us! We will get back to you soon!
+              </h2>
+             </div>
           </form>
         </div>
       </div>
@@ -220,7 +224,7 @@
       gtag("js", new Date());
       gtag("config", "G-BGFKHCVPC3");
     </script>
-    <!-- Script tags for JavaScript files -->
+    <script data-cfasync="false" type="text/javascript" src="../form-submission-handler.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
