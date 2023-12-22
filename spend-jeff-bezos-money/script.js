@@ -24,9 +24,11 @@ const createAd = (slot, format, containerClass) => {
 };
 
 if (window.innerWidth >= 768) {
-  createAd('7226191231', 'autorelaxed', '.ads');
+  createAd('7226191231', 'autorelaxed', '.ads');//multiplex ads
 } else {
-  createAd('8522180787', 'auto', '.ads');
+  createAd('8522180787', 'auto', '.ads');//two square ads
 }
 
-createAd('4081711622', 'auto', '.ads2');
+createAd('4081711622', 'auto', '.ads2');//two square top
+
+createAd('6003816313', 'auto', '.ads1');//two square top
