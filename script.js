@@ -23,14 +23,12 @@ const createAd = (slot, format, containerClass) => {
   (window.adsbygoogle = window.adsbygoogle || []).push({});
 };
 
-if (window.innerWidth >= 768) {
-  createAd('7226191231', 'autorelaxed', '.ads');//multiplex ads
-} else {
-  createAd('8522180787', 'auto', '.ads');//two square ads
-}
 
-createAd('4081711622', 'auto', '.ads2');//two square top
+  createAd('8522180787', 'auto', '.ads');//two square ads // Bakwas
 
-createAd('6003816313', 'auto', '.ads1');//two square top
+
+createAd('4081711622', 'auto', '.ads2');//two square top //Best
+
+createAd('6003816313', 'auto', '.ads1');//two square top //average
 
    
