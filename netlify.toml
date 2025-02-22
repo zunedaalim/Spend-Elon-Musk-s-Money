@@ -1,5 +1,6 @@
-[[redirects]]
-  from = "https://spend-elon-musk-moneyy.netlify.app/*"
-  to = "https://www.spendelonmoney.shop/:splat"
-  status = 301
-  force = true
+# [[redirects]]
+#   from = "https://spend-elon-musk-moneyy.netlify.app/*"
+#   to = "https://www.spendelonmoney.shop/:splat"
+#   status = 301
+#   force = true
+# No longer needed . Domain Expired :(
