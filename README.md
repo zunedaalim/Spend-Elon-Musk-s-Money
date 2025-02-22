@@ -1,5 +1,4 @@
-![image](https://github.com/user-attachments/assets/72349b87-9cb0-49db-9df3-4af34a22682c)
-![image](https://github.com/user-attachments/assets/21cd2e73-e2ee-4538-9f70-02e514c1efdf)
-![image](https://github.com/user-attachments/assets/3cfeb106-40a7-4a49-b432-e25bc702a63e)
-![image](https://github.com/user-attachments/assets/e93887e8-4913-4769-83c6-a36722635ed5)
+# Spend Elon Musk's Money - A Silly Simulator Game
+
+Ever daydreamed about what you'd do with Elon Musk's kind of money?  "Spend Elon Musk's Money" is a little game I made where you can actually try it out!  Imagine having billions and trying to spend it all.  This simulator lets you do just that.  Give it a try and see how you'd live the billionaire life!![image](https://github.com/user-attachments/assets/e93887e8-4913-4769-83c6-a36722635ed5)
 
